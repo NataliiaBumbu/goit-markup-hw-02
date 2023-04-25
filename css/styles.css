@@ -1,0 +1,45 @@
+.page {
+    background-color: #FFFFFF;
+    color: #434455;
+}
+.logo {color: #4D5AE5;}
+
+/* site nav */
+.site-nav .link {
+    color: #2E2F42;
+}
+
+.site-nav .link:hover, 
+.site-nav .link:focus
+{
+    color: #000; 
+}
+/* Hero */
+.hero{
+    background: #2E2F42;
+}
+.hero-title {
+    color: #FFFFFF;
+}
+/* Section */
+.section-title {
+ color: #2E2F42;
+}
+/* Feature-list */
+.title {
+    color: #2E2F42
+}
+
+/* Button */
+.button {
+    color: #FFFFFF;
+background-color: #4D5AE5;
+}
+
+/* footer */
+.footer-list {
+background-color: #2E2F42;
+}
+.footer-p {
+color: #F4F4FD;
+}
