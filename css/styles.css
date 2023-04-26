@@ -1,12 +1,23 @@
-.page {
+body {
     background-color: #FFFFFF;
     color: #434455;
+
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.02em;
 }
-.logo {color: #4D5AE5;}
+.logo {color: #4D5AE5;
+    font-family: Raleway, sans-serif;
+    font-weight: 800;
+font-size: 18px;
+line-height: 1.2;
+}
 
 /* site nav */
 .site-nav .link {
-    color: #2E2F42;
+color: #2E2F42;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
 }
 
 .site-nav .link:hover, 
@@ -14,32 +25,70 @@
 {
     color: #000; 
 }
+/* Auth nav */
+
+.auth-nav {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+}
 /* Hero */
 .hero{
-    background: #2E2F42;
+background: #2E2F42;
+
 }
 .hero-title {
-    color: #FFFFFF;
+color: #FFFFFF;
+font-weight: 700;
+font-size: 56px;
+line-height: 1.2;
+text-align: center;
 }
 /* Section */
 .section-title {
  color: #2E2F42;
+ font-weight: 700;
+ font-size: 36px;
+ line-height: 1.2;
+
+ text-align: center;
+ 
+ text-transform: capitalize;
 }
 /* Feature-list */
 .title {
-    color: #2E2F42
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
 }
-
+/* Item */
+.footer-item {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+}
+/* our-team */
+.our-team{
+text-align: center;
+}
 /* Button */
 .button {
     color: #FFFFFF;
 background-color: #4D5AE5;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
 }
 
 /* footer */
-.footer-list {
-background-color: #2E2F42;
-}
-.footer-p {
+
+.footer-item {
 color: #F4F4FD;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+}
+.footer {
+    background: #2E2F42;
 }
