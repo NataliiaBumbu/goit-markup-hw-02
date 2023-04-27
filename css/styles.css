@@ -159,30 +159,4 @@ text-transform: uppercase;
 color: #4D5AE5;
 
 }
-   /* button st2 */
-.button-blue {
-font-family: var(--font-family-roboto);
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.04em;
-
-background: #404BBF;
-color: #FFFFFF;
-}
-.button-white 
-{
-font-family:var(--font-family-roboto)
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.04em;
-
-color: #4D5AE5;}
+  
