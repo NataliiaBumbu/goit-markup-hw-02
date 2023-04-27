@@ -18,6 +18,7 @@ button {
 body {
     font-family: Roboto, sans-serif;
     background: #FFFFFF;
+    color: #434455 
 }
 
 /* <!-- Шапка сторінки --> */
@@ -52,11 +53,12 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    font-style: normal 
     
     color: var(--color-text); 
 }   
 .site-link:hover,
-.site-link:focus {color: #4D5AE5;}
+.site-link:focus {color: #404bbf ;}
 /* Герой */
 
 .hero{
@@ -66,10 +68,13 @@ body {
     color: #FFFFFF;
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.2;
     text-align: center;
+    line-height: 1.07; 
+    letter-spacing: 0.02em;
     }
-/* Button hero */
+ 
+
+    /* Button hero */
 .button-hero {
 color: #FFFFFF;
 background-color: #4D5AE5;
@@ -78,9 +83,20 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em;
 }
+
+.button-hero:hover,
+.button-hero:focus {color: #404bbf ;}
 /* Переваги */
 .section-advantages-title {
-    display: none;
+    font-family: var(--font-family-roboto);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1,11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
 
 }
 .title-advantages {
