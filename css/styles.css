@@ -1,120 +1,148 @@
- :root {
+:root {
     --backgr-color: #2E2F42;
+    --color-text: #434455;
+    --font-family-roboto: Roboto, sans-serif;
+
 }
-
-
-body {
-    background-color: #FFFFFF;
-    color: #434455;
-
-    font-family: Roboto, sans-serif;
-    letter-spacing: 0.02em;
-}
-.logo, .logo-studio {color: #4D5AE5;
-font-family: Raleway, sans-serif;
-font-weight: 800;
-font-size: 18px;
-line-height: 1.17;
-letter-spacing: 0.03em;
-text-transform: uppercase; 
-text-decoration: none 
- }
- .logo-studio {
-    color: var(--backgr-color);
- }
-
-    
-
-/* site nav */
-
-.site-nav .link {
-color: var(--backgr-color);
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-text-decoration: none; 
- 
-}
-.site-nav, .auth-nav, .feature-list, .list{
+.list {
     list-style: none;
 }
+.link {
+    text-decoration: none;
+}
 
-.site-nav .link:hover, 
-.site-nav .link:focus
-{
-    color: #000; 
-     
+button {
+    font-family: inherit;
+    cursor: pointer;
 }
-/* Auth nav */
-.auth-nav .link {
-text-decoration: none; 
-   
+body {
+    font-family: Roboto, sans-serif;
+    background: #FFFFFF;
 }
-.auth-nav {
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
+
+/* <!-- Шапка сторінки --> */
+
+.logo, .logo-studio 
+   {color: #4D5AE5;
+    font-family: Raleway, sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase; 
+    
+     }
+.logo-studio 
+    {
+    color: var(--backgr-color);
+    }
+
+.site-link { 
+    font-family: var(--font-family-roboto);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+
+    color: var(--backgr-color);
 }
-/* Hero */
+.auth-nav-link {
+    font-family: var(--font-family-roboto)
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    
+    color: var(--color-text); 
+}   
+.site-link:hover,
+.site-link:focus {color: #4D5AE5;}
+/* Герой */
+
 .hero{
-background: var(--backgr-color);
-
-}
-.hero-title {
-color: #FFFFFF;
-font-weight: 700;
-font-size: 56px;
-line-height: 1.2;
-text-align: center;
-}
-/* Section */
-.section-title {
- color: var(--backgr-color);
- font-weight: 700;
- font-size: 36px;
- line-height: 1.2;
-
- text-align: center;
- 
- text-transform: capitalize;
-}
-/* Feature-list */
-.title {
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-}
-/* Item */
-.footer-item {
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-}
-
-/* our-team */
-.our-team{
-text-align: center;
-list-style: none;
-}
-/* Button */
-.button {
+    background: var(--backgr-color);
+    }
+    .hero-title {
     color: #FFFFFF;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.2;
+    text-align: center;
+    }
+/* Button hero */
+.button-hero {
+color: #FFFFFF;
 background-color: #4D5AE5;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em;
 }
+/* Переваги */
+.section-advantages-title {
+    display: none;
 
-/* footer */
+}
+.title-advantages {
+font-family:Roboto, sans-serif;
+font-weight: 500;
+font-size: 20px;
+line-height: 1,2;
+letter-spacing: 0.02em;
 
-.footer-item {
-color: #F4F4FD;
+color: #2E2F42;
+
+}
+.item-advantages {
+font-family: Roboto, sans-serif;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
-}
-.footer {
-    background: var(--backgr-color);
-} 
 
+letter-spacing: 0.02em;
+color: #434455;
+}
+.section-team {
+    text-align: center;
+}
+/* Footer */
+.footer-item {
+font-family: var(--font-family-roboto);
+
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+
+color: #F4F4FD;
+    }
+    .footer 
+    {
+        background: var(--backgr-color);
+    }
+   /* button st2 */
+.button-blue {
+font-family: var(--font-family-roboto);
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.04em;
+
+background: #404BBF;
+color: #FFFFFF;
+}
+.button-white 
+{font-family:var(--font-family-roboto)
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.04em;
+
+color: #4D5AE5;}
