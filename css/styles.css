@@ -4,9 +4,11 @@
     --font-family-roboto: Roboto, sans-serif;
 
 }
+
 .list {
     list-style: none;
 }
+
 .link {
     text-decoration: none;
 }
@@ -15,30 +17,32 @@ button {
     font-family: inherit;
     cursor: pointer;
 }
+
 body {
     font-family: Roboto, sans-serif;
     background: #FFFFFF;
-    color: #434455 
+    color: #434455
 }
 
 /* <!-- Шапка сторінки --> */
 
-.logo, .logo-studio 
-   {color: #4D5AE5;
+.logo,
+.logo-studio {
+    color: #4D5AE5;
     font-family: Raleway, sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    text-transform: uppercase; 
-    
-     }
-.logo-studio 
-    {
-    color: var(--backgr-color);
-    }
+    text-transform: uppercase;
 
-.site-link { 
+}
+
+.logo-studio {
+    color: var(--backgr-color);
+}
+
+.site-link {
     font-family: var(--font-family-roboto);
     font-weight: 500;
     font-size: 16px;
@@ -47,116 +51,127 @@ body {
 
     color: var(--backgr-color);
 }
-.address-list{
+
+.address-list {
     font-style: normal;
     color: #434455;
 }
 
 .auth-nav-link {
-    font-family: var(--font-family-roboto)
-    font-weight: 400;
+    font-family: var(--font-family-roboto) font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    font-style: normal 
-    
-    color: var(--color-text); 
-}   
+    font-style: normal color: var(--color-text);
+}
+
 .site-link:hover,
-.site-link:focus {color: #404bbf ;}
+.site-link:focus {
+    color: #404bbf;
+}
 
 /* Герой */
 
-.hero{
+.hero {
     background: var(--backgr-color);
-    }
-    .hero-title {
+}
+
+.hero-title {
     color: #FFFFFF;
     font-weight: 700;
     font-size: 56px;
     text-align: center;
-    line-height: 1.07; 
+    line-height: 1.07;
     letter-spacing: 0.02em;
-    }
- 
+}
 
-    /* Button hero */
+
+/* Button hero */
 .button-hero {
-color: #FFFFFF;
-background-color: #4D5AE5;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background-color: #4D5AE5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
 
 }
 
 .button-hero:hover,
-.button-hero:focus {color: #404bbf;
-    background-color: #404BBF}
+.button-hero:focus {
+    color: #404bbf;
+    background-color: #404BBF
+}
+
 /* Переваги */
 .section-advantages-title {
     font-family: var(--font-family-roboto);
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 1,11;
+    line-height: 1, 11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2E2F42;
 
 }
+
 .title-advantages {
-font-family:Roboto, sans-serif;
-font-weight: 500;
-font-size: 20px;
-line-height: 1,2;
-letter-spacing: 0.02em;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1, 2;
+    letter-spacing: 0.02em;
 
-color: #2E2F42;
+    color: #2E2F42;
 
 }
+
 .item-advantages {
-font-family: Roboto, sans-serif;
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
 
-letter-spacing: 0.02em;
-color: #434455;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
+
 .section-team {
     text-align: center;
 }
+
 /* Footer */
 .footer-item {
-font-family: var(--font-family-roboto);
+    font-family: var(--font-family-roboto);
 
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 
-color: #F4F4FD;
+    color: #F4F4FD;
 }
-.footer 
-{ background: var(--backgr-color);}
- 
+
+.footer {
+    background: var(--backgr-color);
+}
+
 .logo-studio-footer {
-color: #F4F4FD; 
+    color: #F4F4FD;
 }
+
 .logo-fooder {
-font-family: Raleway;
-font-weight: 800;
-font-size: 18px;
-line-height: 21px;
-display: flex;
-align-items: center;
-letter-spacing: 0.03em;
-text-transform: uppercase;
+    font-family: Raleway;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 
-color: #4D5AE5;
+    color: #4D5AE5;
 
 }
-  

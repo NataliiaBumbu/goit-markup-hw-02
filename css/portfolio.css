@@ -4,9 +4,11 @@
     --font-family-roboto: Roboto, sans-serif;
 
 }
+
 .list {
     list-style: none;
 }
+
 .link {
     text-decoration: none;
 }
@@ -15,14 +17,59 @@ button {
     font-family: inherit;
     cursor: pointer;
 }
+
 body {
     font-family: Roboto, sans-serif;
     background: #FFFFFF;
-    color: #434455 
+    color: #434455
+}
+
+.logo,
+.logo-studio {
+    color: #4D5AE5;
+    font-family: Raleway, sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+}
+
+.logo-studio {
+    color: var(--backgr-color);
+}
+
+.site-link {
+    font-family: var(--font-family-roboto);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+
+    color: var(--backgr-color);
+}
+
+.address-list {
+    font-style: normal;
+    color: #434455;
+}
+
+.auth-nav-link {
+    font-family: var(--font-family-roboto) font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-style: normal color: var(--color-text);
+}
+
+.site-link:hover,
+.site-link:focus {
+    color: #404bbf;
 }
 
 /* button st2 */
- .button-blue {
+.button-blue {
     font-family: var(--font-family-roboto);
     font-style: normal;
     font-weight: 500;
@@ -32,41 +79,44 @@ body {
     align-items: center;
     text-align: center;
     letter-spacing: 0.04em;
-    
+
     background: #404BBF;
     color: #FFFFFF;
-    }
-    .button-white 
-    {
-    font-family:var(--font-family-roboto)
-    font-weight: 500;
+}
+
+.button-white {
+    font-family: var(--font-family-roboto) font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.04em;
-    
-    color: #4D5AE5;}
 
-    /* Footer */
+    color: #4D5AE5;
+}
+
+/* Footer */
 .footer-item {
     font-family: var(--font-family-roboto);
-    
+
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    
+
     color: #F4F4FD;
-    }
-    .footer 
-    { background: var(--backgr-color);}
-     
-    .logo-studio-footer {
-    color: #F4F4FD; 
-    }
-    .logo-fooder {
+}
+
+.footer {
+    background: var(--backgr-color);
+}
+
+.logo-studio-footer {
+    color: #F4F4FD;
+}
+
+.logo-fooder {
     font-family: Raleway;
     font-weight: 800;
     font-size: 18px;
@@ -75,8 +125,7 @@ body {
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    
+
     color: #4D5AE5;
-    
-    }
-      
+
+}
