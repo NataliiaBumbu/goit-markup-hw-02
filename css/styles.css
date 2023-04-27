@@ -1,4 +1,4 @@
-:root {
+ :root {
     --backgr-color: #2E2F42;
 }
 
@@ -10,26 +10,33 @@ body {
     font-family: Roboto, sans-serif;
     letter-spacing: 0.02em;
 }
-.logo {color: #4D5AE5;
-    font-family: Raleway, sans-serif;
-    font-weight: 800;
+.logo, .logo-studio {color: #4D5AE5;
+font-family: Raleway, sans-serif;
+font-weight: 800;
 font-size: 18px;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase; 
 text-decoration: none 
  }
-
+ .logo-studio {
+    color: var(--backgr-color);
+ }
 
     
 
 /* site nav */
+
 .site-nav .link {
 color: var(--backgr-color);
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
-text-decoration: none 
+text-decoration: none; 
+ 
+}
+.site-nav, .auth-nav, .feature-list, .list{
+    list-style: none;
 }
 
 .site-nav .link:hover, 
@@ -40,7 +47,8 @@ text-decoration: none
 }
 /* Auth nav */
 .auth-nav .link {
-text-decoration: none    
+text-decoration: none; 
+   
 }
 .auth-nav {
 font-weight: 400;
@@ -82,9 +90,11 @@ font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 }
+
 /* our-team */
 .our-team{
 text-align: center;
+list-style: none;
 }
 /* Button */
 .button {
@@ -106,4 +116,5 @@ line-height: 1.5;
 }
 .footer {
     background: var(--backgr-color);
-}
+} 
+
