@@ -47,6 +47,11 @@ body {
 
     color: var(--backgr-color);
 }
+.address-list{
+    font-style: normal;
+    color: #434455;
+}
+
 .auth-nav-link {
     font-family: var(--font-family-roboto)
     font-weight: 400;
@@ -59,6 +64,7 @@ body {
 }   
 .site-link:hover,
 .site-link:focus {color: #404bbf ;}
+
 /* Герой */
 
 .hero{
@@ -82,10 +88,12 @@ font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em;
+
 }
 
 .button-hero:hover,
-.button-hero:focus {color: #404bbf ;}
+.button-hero:focus {color: #404bbf;
+    background-color: #404BBF}
 /* Переваги */
 .section-advantages-title {
     font-family: var(--font-family-roboto);
@@ -131,11 +139,26 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 
 color: #F4F4FD;
-    }
-    .footer 
-    {
-        background: var(--backgr-color);
-    }
+}
+.footer 
+{ background: var(--backgr-color);}
+ 
+.logo-studio-footer {
+color: #F4F4FD; 
+}
+.logo-fooder {
+font-family: Raleway;
+font-weight: 800;
+font-size: 18px;
+line-height: 21px;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: #4D5AE5;
+
+}
    /* button st2 */
 .button-blue {
 font-family: var(--font-family-roboto);
