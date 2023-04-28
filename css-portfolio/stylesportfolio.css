@@ -87,12 +87,6 @@ body {
 }
 
 /* button st2 */
-.button-blue {
-
-
-    background: #404BBF;
-    color: #FFFFFF;
-}
 
 .button-white {
     color: #4D5AE5;
@@ -100,8 +94,6 @@ body {
 
 }
 
-.button-blue:focus,
-.button-blue:hover 
 .button-white:focus,
 .button-white:hover {
     background-color: #404BBF;
