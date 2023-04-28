@@ -19,11 +19,11 @@ button {
 }
 
 body {
-    font-family: Roboto, sans-serif;
+    font-family: var(--font-family-roboto);
     background: #FFFFFF;
-    color: #434455
+    color: #434455;
 }
-
+/* Heder */
 .logo,
 .logo-studio {
     color: #4D5AE5;
