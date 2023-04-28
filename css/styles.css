@@ -20,7 +20,7 @@ button {
 body {
     font-family: var(--font-family-roboto);
     background: #FFFFFF;
-    color: #434455
+    color: var(--color-text);
 }
 
 /* <!-- Шапка сторінки --> */
@@ -63,7 +63,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     font-style: normal;
-    color: #434455;
+    color: var(--color-text);
 }
 
 .site-link:hover,
@@ -127,7 +127,7 @@ color: #404bbf;
     line-height: 1.2;
     letter-spacing: 0.02em;
 
-    color: #2E2F42;
+    color: var(--backgr-color);
 
 }
 
@@ -138,7 +138,7 @@ color: #404bbf;
     line-height: 1.5;
 
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--color-text);
 }
 
 .section-team {

@@ -101,10 +101,11 @@ body {
 }
 
 .button-blue:focus,
-.button-blue:hover,
+.button-blue:hover 
 .button-white:focus,
 .button-white:hover {
-    color:  #404BBF;
+    background-color: #404BBF;
+    color: #FFFFFF; 
 }
 
 /* Sectin Photo */
