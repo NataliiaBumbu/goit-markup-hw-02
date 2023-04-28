@@ -1,4 +1,3 @@
-
 :root {
     --backgr-color: #2E2F42;
     --color-text: #434455;
@@ -17,6 +16,14 @@
 button {
     font-family: inherit;
     cursor: pointer;
+    font-family: var(--font-family-roboto);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
 }
 
 body {
@@ -58,7 +65,8 @@ body {
 }
 
 .auth-nav-link {
-    font-family: var(--font-family-roboto) font-weight: 400;
+    font-family: var(--font-family-roboto);
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -70,7 +78,7 @@ body {
 .site-link:focus,
 .auth-nav-link:hover,
 .auth-nav-link:focus {
-    color: #404bbf;
+    color: #FFFFFF;
 }
 
 /* Main */
@@ -79,33 +87,24 @@ body {
 }
 
 /* button st2 */
-.blue {
-    font-family: var(--font-family-roboto);
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.04em;
+.button-blue {
+
 
     background: #404BBF;
     color: #FFFFFF;
 }
 
 .button-white {
-    font-family: var(--font-family-roboto);
-     font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.04em;
-
     color: #4D5AE5;
+    background: #F4F4FD;
 
+}
+
+.button-blue:focus,
+.button-blue:hover,
+.button-white:focus,
+.button-white:hover {
+    color:  #404bbf ;
 }
 
 /* Sectin Photo */
