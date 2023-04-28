@@ -78,7 +78,7 @@ body {
 .site-link:focus,
 .auth-nav-link:hover,
 .auth-nav-link:focus {
-    color: #FFFFFF;
+    color: #404bbf; 
 }
 
 /* Main */
@@ -104,7 +104,7 @@ body {
 .button-blue:hover,
 .button-white:focus,
 .button-white:hover {
-    color:  #404bbf ;
+    color:  #FFFFFF ;
 }
 
 /* Sectin Photo */
